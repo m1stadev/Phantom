@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+Data/
+.DS_Store
+cogs/adminserver.py
+bot.log

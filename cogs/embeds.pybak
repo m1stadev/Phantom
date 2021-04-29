@@ -1,0 +1,22 @@
+from discord import Embed
+
+async def example_embed(ctx, package): 
+    _embed = {
+        "title": "Example Title",
+        "description": "Example Description",
+        "fields": [{
+            "name": "Example Field 1 Title",
+            "value": "Example Field 1 Value",
+            "inline": True
+        }, {
+            "name": "Example Field 2 Title",
+            "value": "Example Field 2 Value",
+            "inline": False
+        }, {
+            "name": "Example Field 3 Title",
+            "value": "Example Field 3 Value",
+            "inline": True
+        }]
+    }
+    # Get Embed object from dict
+    embed = Embed.from_dict(_embed)
