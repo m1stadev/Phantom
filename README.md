@@ -20,7 +20,7 @@ To locally host, follow these steps:
 `python3 bot.py`
 
 ## Invite
-Phantom can be invited into any Discord server using [this](https://discord.com/oauth2/authorize?client_id=812153408105480272&scope=bot&permissions=3229084742) link.
+Phantom can be invited into any Discord server using [this](https://discord.com/api/oauth2/authorize?client_id=736756253333913670&permissions=1279257670&scope=bot) link.
 
 ## Support
 For any questions/issues you have, join my [Discord](https://m1sta.xyz/discord) server.
